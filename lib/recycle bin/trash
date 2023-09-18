@@ -1,0 +1,19 @@
+SizedBox(
+                height: MediaQuery.of(context).size.height / 25,
+                width: MediaQuery.of(context).size.width / 1.4,
+                child: const TextField(),
+              ),
+
+IconButton(
+                    icon: const Icon(
+                      Icons.logout,
+                    ),
+                    onPressed: () async {
+                      await _auth.signOut();
+                      if (context.mounted) {
+                        Navigator.pushNamedAndRemoveUntil(
+                            context, LoginScreen.id, (route) => false);
+                      }
+                      await _prefs.setBool('isLoggedIn', false);
+                    },
+                  ),
