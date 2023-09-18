@@ -4,13 +4,12 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is Basically a Map app that is customized to be the map of a certain college(under development).This app allows you to track the ambulance etc and be able to locate certain places or shops, restaurants and various other things as we wish.
 
-A few resources to get you started if this is your first Flutter project:
+# Database
+* Firebase
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# APIs Used
+* Google map API
+* Routes API
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
